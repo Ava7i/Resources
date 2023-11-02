@@ -1,4 +1,4 @@
-# Setup Git for any enviroment 	👻	👻
+# Setup Git for any enviroment 
 
 
 ## Step 1: First you need to set the configuration  
@@ -35,10 +35,4 @@ To get the latest changes from a remote repository, use the following command:
 git pull origin master
 ```
 After this commands the repository is upto date 💯. 
-Happy Coding
-
-
-
-
-
-Step 4:
+Happy Coding!!	👻
