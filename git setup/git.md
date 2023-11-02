@@ -7,3 +7,37 @@ Configure Git with your name and email address. Open a terminal or command promp
 git config --global user.name "Ava7i"
 git config --global user.email lamimatavapy8901@gmail.com
 ```
+Step 2:
+```
+git init
+```
+
+Step 3: Stage Changes
+```
+git add
+```
+Step 4: Commit Channges
+Once changes are staged, commit them with a descriptive message using the following command:
+```
+git commit -m "initial commit"
+```
+Step 5: Push 
+```
+git push
+```
+This following command is for the "master" branch. If you're working on a different branch, replace "master" with your branch name.
+```
+git push -u origin master
+```
+Step 6:Pull Changes
+To get the latest changes from a remote repository, use the following command:
+```
+git pull origin master
+```
+
+
+
+
+
+
+Step 4:
