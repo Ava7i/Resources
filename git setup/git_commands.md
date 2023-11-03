@@ -19,7 +19,7 @@ you can try  this following commands.
 The -b flag with the git checkout command allows you to not only create a new branch but also switch you to it immediately.
 
 ```
-git checkout -b branch_name
+git checkout -b branchName
 ```
 ### Renaming Branch without any hassel
 To rename a branch, you can use the git branch -m command followed by the current branch name and the new desired branch name. For example, if you want to rename a branch called Dev to dev, you would run:
@@ -34,10 +34,22 @@ If you wish to rename the branch you are currently working on without explicitly
 git branch -m dev
 ```
 
-### Discarding Changes to a Specific File
+### Discarding Changes to a Specific File in a simple way
 If you want to get the file back to how it was before any recent changes, then this command is your solution. It's a simple way to start fresh with that file while leaving everything else untouched.
 ```
-git checkout -- filename
+git checkout -- fileName
 ```
+
+### Delete Branch
+Suppose one of your interns inadvertently creates an unnecessary branch, and you've become aware of it. However, this branch has already been merged into the main branch. What steps should you take next?
+```
+git branch -d branchName
+```
+Git will delete the branch if it is fully merged.
+But sometimes you need to delete the branch and you don't care it is fully merged or not. Then simply use this command!
+```
+git branch -D branchName
+```
+
 
 
