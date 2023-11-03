@@ -21,7 +21,7 @@ The -b flag with the git checkout command allows you to not only create a new br
 ```
 git checkout -b branch_name
 ```
-### Renaming Branch
+### Renaming Branch without any hassel
 To rename a branch, you can use the git branch -m command followed by the current branch name and the new desired branch name. For example, if you want to rename a branch called Dev to dev, you would run:
 ```
 git branch -m Dev dev
@@ -29,12 +29,15 @@ git branch -m Dev dev
 ```
 
 
-If you wish to rename the branch you are currently working on without explicitly specifying its previous name, you can utilize the following command.Here, you don’t need to specify the old branch name because Git will assume that you want to rename the current branch to the new name.
+If you wish to rename the branch you are currently working on without explicitly specifying its previous name, you can utilize the following command.Here, you don’t need to specify the old branch name because Git will assume that you want to rename the current branch to the new name. Suppose the current branch is Dev now run the command to change the branch name to Dev.
 ```
-git branch -m newBranchName
-```
-
+git branch -m dev
 ```
 
+### Discarding Changes to a Specific File
+If you want to get the file back to how it was before any recent changes, then this command is your solution. It's a simple way to start fresh with that file while leaving everything else untouched.
+```
+git checkout -- filename
+```
 
 
